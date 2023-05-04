@@ -1,10 +1,16 @@
 import tkinter
 import tkinter.font as tkFont
 from tkinter import DISABLED, END, NORMAL, messagebox
+from analizarTexto import analizar
+from escrituraComandos import escritura
+from crearGrafos import grafos
 import webbrowser as wb
 import easygui
 
 Mensaje="Esperando Archivo..."
+analizarT=analizar()
+traducir=escritura()
+grafo=grafos()
 #------------Ventana Principal--------
 VentanaRaiz = tkinter.Tk()
 VentanaRaiz.config(bg="chartreuse")
@@ -20,6 +26,12 @@ def ManualUsuario():
 def ManualTecnico():
     wb.open_new(r'manuales\Manual Tecnico.pdf')
 
+#-----------------------------------------------------------------------------
+def mostrarTokens():
+    wb.open_new(r'grafos\tokens.dot.png')
+#-----------------------------------------------------------------------------
+def mostrarErrores():
+    wb.open_new(r'grafos\errores.dot.png')
 #-----------------------------------------------------------------------------
 def guardar():
     archivoGuardar=open(ruta, 'w')
@@ -75,6 +87,28 @@ def DesBloquear():
     botonAnalizar.config(state=NORMAL)
     botonErrores.config(state=NORMAL)
     botonTokens.config(state=NORMAL)
+#-----------------------------------------------------------------------------
+def analizarTextoPantalla():
+    global resultado
+    texto=areaTexto.get("1.0",END)
+    resultado=analizarT.analizarEntrada(texto)
+    #resultado: [[Funciones],[Tokens],[Errores]]
+    botonTokens.config(state=NORMAL)
+    grafo.grafoTokens(resultado[1])
+    
+    if resultado[2] == []:
+        botonErrores.config(state=DISABLED)
+        resultado2=traducir.escrituraComandosMongoDB(resultado[0])
+        areaTextoSalida.delete("1.0",END)
+        areaTextoSalida.insert("1.0",resultado2)
+        messagebox.showinfo("--ALERT--",">> Archivo Analizado Exitosamente<<")
+    
+    else:
+        messagebox.showerror("--ALERT--","!! El archivo cuenta con error(es)!!\n\n  !!Verificar en opcion-->> Ver Errores!!")
+        botonErrores.config(state=NORMAL)
+        grafo.grafoErrores(resultado[2])
+        areaTextoSalida.delete("1.0",END)
+
 #-----------------------------------------------------------------------------
 def guardarN():
     if inputNombreArchivo.get() != "" and inputRutaArchivo.get() != "":
@@ -174,13 +208,13 @@ def ventanaMenuArchivo():
     botonGuardarC = tkinter.Button(ventanaArchivo, text="Guardar Como...", bg="yellow", font='Times 13', state=DISABLED, command=guardarComo)
     botonGuardarC.place(x=270,y=10)
     
-    botonAnalizar = tkinter.Button(ventanaArchivo, text="Analizar", bg="red", font='Times 13 bold', state=DISABLED)
+    botonAnalizar = tkinter.Button(ventanaArchivo, text="Analizar", bg="red", font='Times 13 bold', state=DISABLED, command=analizarTextoPantalla)
     botonAnalizar.place(x=530,y=45)
     
-    botonTokens = tkinter.Button(ventanaArchivo, text="Ver Tokens", bg="teal", font='Times 13', state=DISABLED)
+    botonTokens = tkinter.Button(ventanaArchivo, text="Ver Tokens", bg="teal", font='Times 13', state=DISABLED, command=mostrarTokens)
     botonTokens.place(x=910,y=10)
     
-    botonErrores = tkinter.Button(ventanaArchivo, text="Ver Errores", bg="purple", font='Times 13', state=DISABLED)
+    botonErrores = tkinter.Button(ventanaArchivo, text="Ver Errores", bg="purple", font='Times 13', state=DISABLED, command=mostrarErrores)
     botonErrores.place(x=1020,y=10)
     
     EtiquetaX = tkinter.Label(ventanaArchivo, text="X: ", font='Times 10', bg='mediumturquoise')
