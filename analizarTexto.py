@@ -408,7 +408,7 @@ class analizar():
             elif estado==26:
                 if caracter == '{':
                     estado=27
-                    lista=['llave_Apertura', '\"']#[TokenTipo, Lexema]
+                    lista=['llave_Apertura', '{']#[TokenTipo, Lexema]
                     listaTokens.append(lista)
                 
                 elif caracter == '\n':

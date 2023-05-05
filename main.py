@@ -102,6 +102,11 @@ def analizarTextoPantalla():
         areaTextoSalida.delete("1.0",END)
         areaTextoSalida.insert("1.0",resultado2)
         messagebox.showinfo("--ALERT--",">> Archivo Analizado Exitosamente<<")
+        
+        archivoGuardar2=open('traduccion\\comandos_MongoDB.txt', 'w')
+        archivoGuardar2.write(resultado2)
+        archivoGuardar2.close()
+        
     
     else:
         messagebox.showerror("--ALERT--","!! El archivo cuenta con error(es)!!\n\n  !!Verificar en opcion-->> Ver Errores!!")

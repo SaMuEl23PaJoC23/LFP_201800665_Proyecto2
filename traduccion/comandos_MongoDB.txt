@@ -1,0 +1,4 @@
+db.prueba.deleteOne(
+{
+	"nombre": "pruebas"
+});

@@ -1,0 +1,88 @@
+digraph tokens { 
+NodoTokens [shape=none, margin=0, label=<
+<table border="0" cellborder= "1">
+<tr>
+<td>No. </td> <td>TOKEN</td> <td>LEXEMA</td>
+</tr>
+<tr>
+<td>1</td> <td>Apertura_ComentMulti</td> <td>/*</td>
+</tr>
+<tr>
+<td>2</td> <td>ComentMulti</td> <td> 
+Comentario Multi #
+</td>
+</tr>
+<tr>
+<td>3</td> <td>Cierre_ComentMulti</td> <td>*/</td>
+</tr>
+<tr>
+<td>4</td> <td>FuncionValida</td> <td>eliminarunico</td>
+</tr>
+<tr>
+<td>5</td> <td>Nom_VariableComando</td> <td>eli1</td>
+</tr>
+<tr>
+<td>6</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>7</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>8</td> <td>2daV_FuncionValida</td> <td>eliminarunico</td>
+</tr>
+<tr>
+<td>9</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>10</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>11</td> <td>NombreColeccion</td> <td>prueba</td>
+</tr>
+<tr>
+<td>12</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>13</td> <td>MasParametros</td> <td>','</td>
+</tr>
+<tr>
+<td>14</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>15</td> <td>llave_Apertura</td> <td>{</td>
+</tr>
+<tr>
+<td>16</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>17</td> <td>Campo_LLave</td> <td>nombre</td>
+</tr>
+<tr>
+<td>18</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>19</td> <td>Dospuntos</td> <td>:</td>
+</tr>
+<tr>
+<td>20</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>21</td> <td>Campo_Valor</td> <td>pruebas</td>
+</tr>
+<tr>
+<td>22</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>23</td> <td>llave_Cierre</td> <td>}</td>
+</tr>
+<tr>
+<td>24</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>25</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>26</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+</table>>];
+}

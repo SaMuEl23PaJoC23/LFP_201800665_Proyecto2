@@ -1,0 +1,12 @@
+digraph errores { 
+NodoErrores [shape=none, margin=0, label=<
+<table border="0" cellborder= "1">
+<tr>
+<td>No. </td> <td>Tipo Error</td> <td>Se leyo</td> <td>Se esperaba...</td> <td>Linea(Y)</td> <td>Columna(X)</td> <td>DESCRIPCION</td>
+</tr>
+<tr>
+<td>1</td> <td>(SINTACTICO)</td> <td>
+</td> <td>)</td> <td>7</td> <td>25</td> <td>Desface de caracter</td>
+</tr>
+</table>>];
+}
