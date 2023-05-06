@@ -85,8 +85,6 @@ def DesBloquear():
     botonGuardar.config(state=NORMAL)
     botonGuardarC.config(state=NORMAL)
     botonAnalizar.config(state=NORMAL)
-    botonErrores.config(state=NORMAL)
-    botonTokens.config(state=NORMAL)
 #-----------------------------------------------------------------------------
 def analizarTextoPantalla():
     global resultado

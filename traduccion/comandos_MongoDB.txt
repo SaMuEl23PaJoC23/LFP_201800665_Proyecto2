@@ -1,4 +1,22 @@
-db.prueba.deleteOne(
+use('temp1');
+db.dropDatabase();
+use('temp');
+db.createCollection('literaturas');
+db.createCollection('colectemp');
+db.colectemp.drop();
+db.literaturas.insertOne(
 {
-	"nombre": "pruebas"
+	"nombre": "Obra Literaria",
+	"autor": "Jorge Luis"
 });
+db.literaturas.updateOne(
+{
+	"nombre": "Obra Literaria",
+	"autor": "Mario Vargas"
+});
+db.literaturas.deleteOne(
+{
+	"nombre": "Obra Literaria"
+});
+db.literaturas.find();
+db.literaturas.findOne();

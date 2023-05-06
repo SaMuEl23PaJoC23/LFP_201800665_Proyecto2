@@ -9,80 +9,531 @@ NodoTokens [shape=none, margin=0, label=<
 </tr>
 <tr>
 <td>2</td> <td>ComentMulti</td> <td> 
-Comentario Multi #
+	ARCHIVO DE 
+	CALIFICACION
 </td>
 </tr>
 <tr>
 <td>3</td> <td>Cierre_ComentMulti</td> <td>*/</td>
 </tr>
 <tr>
-<td>4</td> <td>FuncionValida</td> <td>eliminarunico</td>
+<td>4</td> <td>ComentUnaLinea</td> <td>---</td>
 </tr>
 <tr>
-<td>5</td> <td>Nom_VariableComando</td> <td>eli1</td>
+<td>5</td> <td>ContenidoComentUnaLinea</td> <td> VAMOS A TRADUCIR EL CODIGO calificacion</td>
 </tr>
 <tr>
-<td>6</td> <td>Signo_Igual</td> <td>=</td>
+<td>6</td> <td>FuncionValida</td> <td>CrearBD</td>
 </tr>
 <tr>
-<td>7</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+<td>7</td> <td>Nom_VariableComando</td> <td>temp1</td>
 </tr>
 <tr>
-<td>8</td> <td>2daV_FuncionValida</td> <td>eliminarunico</td>
+<td>8</td> <td>Signo_Igual</td> <td>=</td>
 </tr>
 <tr>
-<td>9</td> <td>Parentesis_Apertura</td> <td>(</td>
+<td>9</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
 </tr>
 <tr>
-<td>10</td> <td>ComillasDob_Apertura</td> <td>"</td>
+<td>10</td> <td>2daV_FuncionValida</td> <td>crearbd</td>
 </tr>
 <tr>
-<td>11</td> <td>NombreColeccion</td> <td>prueba</td>
+<td>11</td> <td>Parentesis_Apertura</td> <td>(</td>
 </tr>
 <tr>
-<td>12</td> <td>ComillasDob_Cierre</td> <td>"</td>
+<td>12</td> <td>Parentesis_Cierre</td> <td>)</td>
 </tr>
 <tr>
-<td>13</td> <td>MasParametros</td> <td>','</td>
+<td>13</td> <td>FinInstruccion</td> <td>;</td>
 </tr>
 <tr>
-<td>14</td> <td>ComillasDob_Apertura</td> <td>"</td>
+<td>14</td> <td>FuncionValida</td> <td>EliminarBD</td>
 </tr>
 <tr>
-<td>15</td> <td>llave_Apertura</td> <td>{</td>
+<td>15</td> <td>Nom_VariableComando</td> <td>temp1</td>
 </tr>
 <tr>
-<td>16</td> <td>ComillasDob_Apertura</td> <td>"</td>
+<td>16</td> <td>Signo_Igual</td> <td>=</td>
 </tr>
 <tr>
-<td>17</td> <td>Campo_LLave</td> <td>nombre</td>
+<td>17</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
 </tr>
 <tr>
-<td>18</td> <td>ComillasDob_Cierre</td> <td>"</td>
+<td>18</td> <td>2daV_FuncionValida</td> <td>eliminarbd</td>
 </tr>
 <tr>
-<td>19</td> <td>Dospuntos</td> <td>:</td>
+<td>19</td> <td>Parentesis_Apertura</td> <td>(</td>
 </tr>
 <tr>
-<td>20</td> <td>ComillasDob_Apertura</td> <td>"</td>
+<td>20</td> <td>Parentesis_Cierre</td> <td>)</td>
 </tr>
 <tr>
-<td>21</td> <td>Campo_Valor</td> <td>pruebas</td>
+<td>21</td> <td>FinInstruccion</td> <td>;</td>
 </tr>
 <tr>
-<td>22</td> <td>ComillasDob_Cierre</td> <td>"</td>
+<td>22</td> <td>FuncionValida</td> <td>CrearBD</td>
 </tr>
 <tr>
-<td>23</td> <td>llave_Cierre</td> <td>}</td>
+<td>23</td> <td>Nom_VariableComando</td> <td>temp</td>
 </tr>
 <tr>
-<td>24</td> <td>ComillasDob_Cierre</td> <td>"</td>
+<td>24</td> <td>Signo_Igual</td> <td>=</td>
 </tr>
 <tr>
-<td>25</td> <td>Parentesis_Cierre</td> <td>)</td>
+<td>25</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
 </tr>
 <tr>
-<td>26</td> <td>FinInstruccion</td> <td>;</td>
+<td>26</td> <td>2daV_FuncionValida</td> <td>crearbd</td>
+</tr>
+<tr>
+<td>27</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>28</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>29</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>30</td> <td>FuncionValida</td> <td>CrearColeccion</td>
+</tr>
+<tr>
+<td>31</td> <td>Nom_VariableComando</td> <td>colec</td>
+</tr>
+<tr>
+<td>32</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>33</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>34</td> <td>2daV_FuncionValida</td> <td>crearcoleccion</td>
+</tr>
+<tr>
+<td>35</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>36</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>37</td> <td>NombreColeccion</td> <td>literaturas</td>
+</tr>
+<tr>
+<td>38</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>39</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>40</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>41</td> <td>FuncionValida</td> <td>CrearColeccion</td>
+</tr>
+<tr>
+<td>42</td> <td>Nom_VariableComando</td> <td>colec</td>
+</tr>
+<tr>
+<td>43</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>44</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>45</td> <td>2daV_FuncionValida</td> <td>crearcoleccion</td>
+</tr>
+<tr>
+<td>46</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>47</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>48</td> <td>NombreColeccion</td> <td>colectemp</td>
+</tr>
+<tr>
+<td>49</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>50</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>51</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>52</td> <td>FuncionValida</td> <td>EliminarColeccion</td>
+</tr>
+<tr>
+<td>53</td> <td>Nom_VariableComando</td> <td>eliminacolec</td>
+</tr>
+<tr>
+<td>54</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>55</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>56</td> <td>2daV_FuncionValida</td> <td>eliminarcoleccion</td>
+</tr>
+<tr>
+<td>57</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>58</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>59</td> <td>NombreColeccion</td> <td>colectemp</td>
+</tr>
+<tr>
+<td>60</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>61</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>62</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>63</td> <td>FuncionValida</td> <td>InsertarUnico</td>
+</tr>
+<tr>
+<td>64</td> <td>Nom_VariableComando</td> <td>insert1</td>
+</tr>
+<tr>
+<td>65</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>66</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>67</td> <td>2daV_FuncionValida</td> <td>insertarunico</td>
+</tr>
+<tr>
+<td>68</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>69</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>70</td> <td>NombreColeccion</td> <td>literaturas</td>
+</tr>
+<tr>
+<td>71</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>72</td> <td>MasParametros</td> <td>','</td>
+</tr>
+<tr>
+<td>73</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>74</td> <td>llave_Apertura</td> <td>{</td>
+</tr>
+<tr>
+<td>75</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>76</td> <td>Campo_LLave</td> <td>nombre</td>
+</tr>
+<tr>
+<td>77</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>78</td> <td>Dospuntos</td> <td>:</td>
+</tr>
+<tr>
+<td>79</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>80</td> <td>Campo_Valor</td> <td>Obra Literaria</td>
+</tr>
+<tr>
+<td>81</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>82</td> <td>MasParametros</td> <td>','</td>
+</tr>
+<tr>
+<td>83</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>84</td> <td>Campo_LLave</td> <td>autor</td>
+</tr>
+<tr>
+<td>85</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>86</td> <td>Dospuntos</td> <td>:</td>
+</tr>
+<tr>
+<td>87</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>88</td> <td>Campo_Valor</td> <td>Jorge Luis</td>
+</tr>
+<tr>
+<td>89</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>90</td> <td>llave_Cierre</td> <td>}</td>
+</tr>
+<tr>
+<td>91</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>92</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>93</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>94</td> <td>FuncionValida</td> <td>ActualizarUnico</td>
+</tr>
+<tr>
+<td>95</td> <td>Nom_VariableComando</td> <td>actualizadoc</td>
+</tr>
+<tr>
+<td>96</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>97</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>98</td> <td>2daV_FuncionValida</td> <td>actualizarunico</td>
+</tr>
+<tr>
+<td>99</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>100</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>101</td> <td>NombreColeccion</td> <td>literaturas</td>
+</tr>
+<tr>
+<td>102</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>103</td> <td>MasParametros</td> <td>','</td>
+</tr>
+<tr>
+<td>104</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>105</td> <td>llave_Apertura</td> <td>{</td>
+</tr>
+<tr>
+<td>106</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>107</td> <td>Campo_LLave</td> <td>nombre</td>
+</tr>
+<tr>
+<td>108</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>109</td> <td>Dospuntos</td> <td>:</td>
+</tr>
+<tr>
+<td>110</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>111</td> <td>Campo_Valor</td> <td>Obra Literaria</td>
+</tr>
+<tr>
+<td>112</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>113</td> <td>llave_Cierre</td> <td>}</td>
+</tr>
+<tr>
+<td>114</td> <td>MasParametros</td> <td>','</td>
+</tr>
+<tr>
+<td>115</td> <td>llave_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>116</td> <td>ActualizarInfo</td> <td>$</td>
+</tr>
+<tr>
+<td>117</td> <td>Campo_Establecer</td> <td>set</td>
+</tr>
+<tr>
+<td>118</td> <td>Dospuntos</td> <td>:</td>
+</tr>
+<tr>
+<td>119</td> <td>llave_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>120</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>121</td> <td>Campo_LLave</td> <td>autor</td>
+</tr>
+<tr>
+<td>122</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>123</td> <td>Dospuntos</td> <td>:</td>
+</tr>
+<tr>
+<td>124</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>125</td> <td>Campo_Valor</td> <td>Mario Vargas</td>
+</tr>
+<tr>
+<td>126</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>127</td> <td>llave_Cierre</td> <td>}</td>
+</tr>
+<tr>
+<td>128</td> <td>llave_Cierre</td> <td>}</td>
+</tr>
+<tr>
+<td>129</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>130</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>131</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>132</td> <td>FuncionValida</td> <td>EliminarUnico</td>
+</tr>
+<tr>
+<td>133</td> <td>Nom_VariableComando</td> <td>eliminadoc</td>
+</tr>
+<tr>
+<td>134</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>135</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>136</td> <td>2daV_FuncionValida</td> <td>eliminarunico</td>
+</tr>
+<tr>
+<td>137</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>138</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>139</td> <td>NombreColeccion</td> <td>literaturas</td>
+</tr>
+<tr>
+<td>140</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>141</td> <td>MasParametros</td> <td>','</td>
+</tr>
+<tr>
+<td>142</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>143</td> <td>llave_Apertura</td> <td>{</td>
+</tr>
+<tr>
+<td>144</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>145</td> <td>Campo_LLave</td> <td>nombre</td>
+</tr>
+<tr>
+<td>146</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>147</td> <td>Dospuntos</td> <td>:</td>
+</tr>
+<tr>
+<td>148</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>149</td> <td>Campo_Valor</td> <td>Obra Literaria</td>
+</tr>
+<tr>
+<td>150</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>151</td> <td>llave_Cierre</td> <td>}</td>
+</tr>
+<tr>
+<td>152</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>153</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>154</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>155</td> <td>FuncionValida</td> <td>BuscarTodo</td>
+</tr>
+<tr>
+<td>156</td> <td>Nom_VariableComando</td> <td>todo</td>
+</tr>
+<tr>
+<td>157</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>158</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>159</td> <td>2daV_FuncionValida</td> <td>buscartodo</td>
+</tr>
+<tr>
+<td>160</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>161</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>162</td> <td>NombreColeccion</td> <td>literaturas</td>
+</tr>
+<tr>
+<td>163</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>164</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>165</td> <td>FinInstruccion</td> <td>;</td>
+</tr>
+<tr>
+<td>166</td> <td>FuncionValida</td> <td>BuscarUnico</td>
+</tr>
+<tr>
+<td>167</td> <td>Nom_VariableComando</td> <td>unic</td>
+</tr>
+<tr>
+<td>168</td> <td>Signo_Igual</td> <td>=</td>
+</tr>
+<tr>
+<td>169</td> <td>Afirmacion_FuncionNueva</td> <td>nueva</td>
+</tr>
+<tr>
+<td>170</td> <td>2daV_FuncionValida</td> <td>buscarunico</td>
+</tr>
+<tr>
+<td>171</td> <td>Parentesis_Apertura</td> <td>(</td>
+</tr>
+<tr>
+<td>172</td> <td>ComillasDob_Apertura</td> <td>"</td>
+</tr>
+<tr>
+<td>173</td> <td>NombreColeccion</td> <td>literaturas</td>
+</tr>
+<tr>
+<td>174</td> <td>ComillasDob_Cierre</td> <td>"</td>
+</tr>
+<tr>
+<td>175</td> <td>Parentesis_Cierre</td> <td>)</td>
+</tr>
+<tr>
+<td>176</td> <td>FinInstruccion</td> <td>;</td>
 </tr>
 </table>>];
 }
